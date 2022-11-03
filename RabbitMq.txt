@@ -1,0 +1,14 @@
+Instalação
+	- Baixar no site https://www.rabbitmq.com/install-windows.html#installer ou cmd adm "choco install rabbitmq"
+	- Após a instalação encontrar a pasta C:\Program Files\RabbitMQ Server\rabbitmq_server-3.10.6\sbin e rodar o comando "rabbitmq-plugins enable rabbitmq_management"
+	
+Rodar Server
+	Url: http://127.0.0.1:15672/#/
+	Usuário: guest
+	Senha: guest
+	
+Visual Studio
+	1. Criar uma solução (Api .Net Core MVC)
+	2. Instalar pelo Nuget o pacote RabbitMq.Client (6.4.0)
+	3. Instalar pelo Nuget o pacote NewtonSoft.Json (13.0.1)
+	4. Instalar pelo Nuget o pacote Swashbuckle.AspNetCore (6.4.0)
